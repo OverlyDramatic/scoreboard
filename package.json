@@ -1,0 +1,24 @@
+{
+  "name": "scoreboard",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn dev",
+    "server": "cd server && yarn dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OverlyDramatic/scoreboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OverlyDramatic/scoreboard/issues"
+  },
+  "homepage": "https://github.com/OverlyDramatic/scoreboard#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "ts-node": "^10.4.0"
+  }
+}
